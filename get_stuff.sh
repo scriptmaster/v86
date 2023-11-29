@@ -7,6 +7,7 @@ wget -nv -P images/ https://k.copy.sh/{linux.iso,linux3.iso,linux4.iso,buildroot
 # npm
 wget https://registry.npmjs.org/v86/-/v86-0.4.0.tgz
 tar xf v86-0.4.0.tgz
+cp package/build/* build/
 
 # get build/xterm.js
 # get build/libwabt.js
